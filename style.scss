@@ -1,0 +1,85 @@
+/**
+ * Mobedia Default SCSS - SASSY!
+ * Be sure to document your SCSS just as well as you would your code!
+ */
+
+
+
+
+
+/**
+* Settings
+* The settings layer is for top level site settings. No CSS should be generated from this layer
+*/
+
+@import "settings/colors";
+@import "settings/grid";
+@import "settings/fonts";
+@import "settings/brandcolors";
+
+
+
+
+
+/**
+* Tools
+* The tools layer is for mixins. No CSS should be generated from this layer
+*/
+
+@import "tools/clearfix";
+@import "tools/gridframework";
+@import "tools/grid";
+@import "tools/easings";
+
+
+
+
+
+/**
+* Generic
+* The generic layer is for third party, upstream css
+*/
+
+@import "generic/normalize";
+@import "generic/boxsizing";
+@import "generic/typebase";
+
+
+
+
+
+/**
+* Base
+* The base layer is for unclassed/unIDed elements. The default style for elements
+*/
+
+
+
+
+
+/**
+* Objects
+*/
+//The objects layer is for purely structural components with no styling associated.
+
+@import "objects/grid";
+
+
+
+
+
+/**
+ * Components
+ * The components layer represents the clothes on top of the structure
+ */
+
+
+
+
+
+/**
+ * Trumps
+ * The trumps layer is for overrides and special cases. This is where you should use !important.
+ */
+
+@import "trumps/clearfix";
